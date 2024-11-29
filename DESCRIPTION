@@ -1,0 +1,20 @@
+Package: tenmdata
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: person(given = "Fernanda", 
+	    family = "Rosales", 
+	    email = "first.last@example.com", 
+	    role = c("aut", "cre"))
+Description: Download time-specific bioclimatic variables at spatial resolution of 30', 2.5', 5' and 10' arcminutes.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    utils
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/fernandarosram/tenmdata
+BugReports: https://github.com/fernandarosram/tenmdata/issues

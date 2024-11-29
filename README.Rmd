@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# tenmdata
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+tenmdata is an R package for downloading worldwide time-specific bioclimatic variables at spatial resolution of 30' 2.5', 5' and 10' arcseconds.
+
+## Installation
+
+You can install the development version of tenmdata like so:
+
+
+``` r
+devtools::install_github("fernandarosram/tenmdata")
+```
+
+## Example
+
+Download worldwide time-specific bioclimatic layers at a resolution of 10 arcminutes.
+
+```{r example}
+library(tenmdata)
+get_tenmdata(res = "30")
+
+```
